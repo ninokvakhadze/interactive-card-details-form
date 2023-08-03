@@ -1,6 +1,45 @@
-.continue-div{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 120px;
+.continue-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 100px;
 }
+h1 {
+  color: var(--deep-violet, #21092f);
+  text-align: center;
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Space Grotesk;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 3.422px;
+  margin-top: 35px;
+}
+h4 {
+  color: var(--purplish-grey, #8f8694);
+  text-align: center;
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Space Grotesk;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-top: 16px;
+}
+button {
+    width: 327px;
+    height: 53px;
+    border-radius: 8px;
+    background: var(--deep-violet, #21092f);
+    border: none;
+    color: var(--white, #fff);
+    font-feature-settings: "clig" off, "liga" off;
+    font-family: Space Grotesk;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-top: 48px;
+    margin-bottom: 45px;
+  }
