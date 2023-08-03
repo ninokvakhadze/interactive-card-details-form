@@ -1,38 +1,101 @@
-.App {
-  text-align: center;
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/* header */
+header {
+  background-image: url(./images/bg-main-mobile.png);
+  height: 240px;
+  width: 100%;
+  background-size: 100%;
+  background-repeat: no-repeat;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
+.cards {
+  position: relative;
+}
+.card-back-div {
+  margin-top: 50px;
+  margin-right: -44px;
+  position: relative;
+}
+.card-back {
+  width: 286px;
+  height: 157px;
+}
+.back-card-number {
+  position: absolute;
+  top: 71px;
+  left: 231px;
+  color: var(--white, #fff);
+  text-align: right;
+  font-family: Space Grotesk;
+  font-size: 9px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 1.286px;
+  text-transform: uppercase;
+}
+.card-front-div {
+  margin-top: -73px;
+  margin-left: -52px;
+  position: relative;
+}
+.card-front {
+  width: 285px;
+  height: 156.208px;
+  border-radius: 8px;
+  box-shadow: 0 4px 80px -2px gray;
+}
+.front-card-components {
+  position: absolute;
+  top: 20px;
+  left: 25px;
+}
+.card-logo {
+  width: 54px;
+  height: 30px;
+}
+h3 {
+  color: var(--white, #fff);
+  font-family: Space Grotesk;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 2.2px;
+  margin-top: 37px;
+}
+.name-date {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 17px;
+}
+.name {
+  color: var(--white, #fff);
+  font-family: Space Grotesk;
+  font-size: 9px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 1.286px;
+  text-transform: uppercase;
+}
+.date {
+  color: var(--white, #fff);
+  text-align: right;
+  font-family: Space Grotesk;
+  font-size: 9px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 1.286px;
+  text-transform: uppercase;
+}
+/* start */
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
