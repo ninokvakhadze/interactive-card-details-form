@@ -97,5 +97,64 @@ h3 {
   letter-spacing: 1.286px;
   text-transform: uppercase;
 }
-/* start */
-
+@media screen and (min-width: 1200px) {
+  .App {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  header {
+    background-image: url(./images/bg-main-desktop.png);
+    height: 100vh;
+    width: 35%;
+    justify-content: center;
+    align-items: flex-end;
+  }
+  .card-back-div {
+    margin-right: -184px;
+  }
+  .card-back {
+    width: 447px;
+    height: 245px;
+  }
+  .back-card-number {
+    top: 111px;
+    left: 358px;
+    font-size: 14px;
+    letter-spacing: 2px;
+  }
+  .card-front-div {
+    margin-top: -520px;
+    margin-right: -102px;
+  }
+  .card-front {
+    width: 447px;
+    height: 245px;
+  }
+  .front-card-components {
+    top: 20px;
+    left: 44px;
+  }
+  .card-logo {
+    width: 84px;
+    height: 47px;
+  }
+  h3 {
+    margin-top: 64px;
+    font-size: 28px;
+    letter-spacing: 3.422px;
+  }
+  .name-date {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 26px;
+  }
+  .name {
+    font-size: 14px;
+    letter-spacing: 2px;
+  }
+  .date {
+    font-size: 14px;
+    letter-spacing: 2px;
+  }
+}
