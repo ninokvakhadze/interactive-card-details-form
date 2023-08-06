@@ -52,6 +52,9 @@ input[type="number"]::-webkit-outer-spin-button {
   width: 72px;
   height: 45px;
 }
+.red{
+  border: 1px solid red;
+}
 .cvc-input {
   width: 164px;
   height: 45px;
@@ -75,6 +78,20 @@ button {
   line-height: normal;
   margin-bottom: 45px;
   margin-top: 8px;
+}
+.cvc-div{
+  position: relative;
+}
+.cvc-error {
+  color: var(--red, #ff5050);
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Space Grotesk;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-top: 8px;
+  position: absolute;
 }
 @media screen and (min-width: 1200px) {
   .information {
