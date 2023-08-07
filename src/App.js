@@ -3,7 +3,7 @@ import cardBack from "./images/bg-card-back.png";
 import cardLogo from "./images/card-logo.svg";
 import cardFront from "./images/bg-card-front.png";
 import Start from "./components/start";
-// import Continue from "./components/continue";
+
 
 function App() {
   return (
@@ -25,8 +25,7 @@ function App() {
           </div>
         </div>
       </header>
-      <Start/>
-      {/* <Continue/> */}
+       <Start/>
     </div>
   );
 }
